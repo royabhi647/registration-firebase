@@ -1,0 +1,175 @@
+.container {
+  min-height: 100vh;
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+}
+
+.leftContainer {
+  width: 260px;
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.optionContainer {
+  display: flex;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.optionContainer:hover {
+  color: hotpink;
+}
+
+.optionIcons {
+  display: flex;
+  align-items: center;
+  margin-left: 36px;
+}
+
+.logOutDiv {
+  display: flex;
+  margin-left: 36px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 5%;
+}
+
+.logOutDiv:hover {
+  color: hotpink;
+}
+
+.userContainer {
+  width: 620px;
+  height: 530px;
+  background: #fff;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.userPosition {
+  display: flex;
+  margin-left: 30px;
+  padding-top: 20px;
+}
+
+.discription {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 560px;
+}
+.postImageContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: center;
+}
+.postImage {
+  width: 560px;
+  height: 306px;
+  border-radius: 10px;
+}
+
+.buttomPosition {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 34px;
+}
+
+.buttomItemsCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.artistContainer {
+  width: 244px;
+  height: 126px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  position: relative;
+}
+
+.rightAvatarContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 64px;
+  margin-left: 14px;
+}
+
+.textPosition {
+  position: absolute;
+  margin-left: 72px;
+  margin-top: 68px;
+}
+
+.topBarposition {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.logoContainer {
+  width: 260px;
+  height: 60px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.searchIconsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchIcons {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 33%;
+  left: 3%;
+}
+
+.inputBox {
+  height: 60px;
+  width: 620px;
+  background: #fff;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding-left: 50px;
+}
+
+.filterContainer {
+  display: flex;
+  position: absolute;
+  right: 5%;
+  align-items: center;
+}
+
+.filterImgDiv {
+  display: "flex";
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.sellerDiv {
+  width: 260px;
+  height: 60px;
+  background: #88c2bb;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 0px !important;
+}
